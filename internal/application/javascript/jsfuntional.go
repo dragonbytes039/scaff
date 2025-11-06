@@ -9,7 +9,7 @@ import (
 var jsfuntionalOptions = []menu.OptionsInfo{
 	{Description: "Clean Arquitecture", Msg: msg.RunningScriptMsg{Script: scripts.JsFuntionalClean}},
 	{Description: "Hexagonal Arquitecture", Msg: msg.RunningScriptMsg{Script: scripts.JsFuntionalHexa}},
-	{Description: "Model View Controller", Msg: msg.RunningScriptMsg{Script: scripts.JsFuntionalMvc}},
+	{Description: "Model Controller Services", Msg: msg.RunningScriptMsg{Script: scripts.JsFuntionalMcs}},
 	{Description: "Modular Clean", Msg: msg.RunningScriptMsg{Script: scripts.JsFuntionalMC}},
 }
 
