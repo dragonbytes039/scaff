@@ -32,12 +32,12 @@ func (m AppModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	case msgs.ScriptErrorMsg:
 		m.state = ScriptError
 		m.ScriptError = msg.Err
-		return m, nil
+		return m, tea.Quit
 
 	case msgs.ScriptFinishedMsg:
 		m.state = ScriptFinished
 		m.ScriptFinished = msg.Msg
-		return m, nil
+		return m, tea.Quit
 
 	case msgs.ChangeToLanguageMsg:
 		m.state = LanguageModel

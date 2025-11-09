@@ -27,5 +27,18 @@ const (
 )
 
 var ScriptsDetailsUrls = map[ScriptApp]string{
-	JsFuntionalClean: "prueba",
+	JsFuntionalClean: "https://github.com/dragonbytes02/js-clean-func-template.git",
+	JsFuntionalHexa:  "https://github.com/dragonbytes02/js-hexagonal-func-template.git",
+	JsFuntionalMC:    "https://github.com/dragonbytes02/js-modularclean-func-template.git",
+	JsFuntionalMcs:   "https://github.com/dragonbytes02/js-mcs-func-template.git",
+
+	JsPooClean: "https://github.com/dragonbytes02/js-clean-poo-template.git",
+	JsPooHexa:  "https://github.com/dragonbytes02/js-hexagonal-poo-template.git",
+	JsPooMcs:   "https://github.com/dragonbytes02/js-mcs-poo-template.git",
+	JsPooMC:    "in process...",
+
+	GoClean: "in process...",
+	GoHexa:  "in process...",
+	GoMC:    "in process...",
+	GoEML:   "in process...",
 }

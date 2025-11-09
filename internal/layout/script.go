@@ -23,7 +23,7 @@ func (m *AppModel) runScript(selection scripts.ScriptApp, name_project string) t
 		if err != nil {
 			return msg.ScriptErrorMsg{Err: string("output") + ": " + err.Error()}
 		}
-
-		return msg.ScriptFinishedMsg{Msg: scripts.SuccessMsg(selection)}
+		messagess := scripts.SuccessMsg(selection)
+		return msg.ScriptFinishedMsg{Msg: messagess}
 	}
 }

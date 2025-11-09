@@ -2,8 +2,8 @@ package scripts
 
 func SuccessMsg(selection ScriptApp) string {
 	switch selection {
-	case JsFuntionalClean | JsFuntionalHexa | JsFuntionalMcs | JsFuntionalMC | JsPooClean | JsPooHexa | JsPooMcs | JsPooMC:
-		return "\ninstall success!\nexecute\npnpm i"
+	case JsFuntionalClean, JsFuntionalHexa, JsFuntionalMcs, JsFuntionalMC, JsPooClean, JsPooHexa, JsPooMcs, JsPooMC:
+		return "\nconfigure your environment:\nexecute:\n\npnpm i\n"
 	}
 	return ""
 }

@@ -30,7 +30,6 @@ func (j Script) Execute() error {
 		return fmt.Errorf("error: %v", err)
 	}
 
-	fmt.Println("\n--- Process completed!\nconfigure your environment: ---")
 	return nil
 }
 
