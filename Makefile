@@ -10,10 +10,12 @@ build:
 run:
 	./bin/scaff.exe create project
 
-##brun: build and run
-.PHONY: brun
-brun: build run
-
+#delete project create with run
 .PHONY: clean
 clean: 
 	rmdir /S /Q project
+
+
+##brun: build, run and clean
+.PHONY: dev
+brun: build run clean
