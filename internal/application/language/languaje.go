@@ -6,9 +6,8 @@ import (
 )
 
 var LanguagesOptions = []menu.OptionsInfo{
-	{Description: "Go ->", Msg: msg.ChangeToParadigmMsg{}},
-	{Description: "Typescript ", Msg: msg.ChangeToParadigmMsg{}},
-	{Description: "Python", Msg: msg.ChangeToParadigmMsg{}},
+	{Description: "Go", Msg: msg.ChangeToGoOptionsMsg{}},
+	{Description: "Typescript", Msg: msg.ChangeToParadigmMsg{}},
 }
 
 func InitialLanguageModel() menu.Model {

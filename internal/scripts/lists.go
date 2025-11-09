@@ -22,8 +22,8 @@ const (
 	// Go
 	GoClean // 8
 	GoHexa  // 9
-	GoMvc   // 10 (Model-View-Controller)
 	GoMC    // 11 (Microservices/Microcomponents)
+	GoEML   // 10 (Model-View-Controller)
 )
 
 var ScriptsDetailsUrls = map[ScriptApp]string{
