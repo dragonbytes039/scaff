@@ -55,4 +55,25 @@ To ensure that contributions maintain Scaff's philosophy, your pull request will
 
 **Explore the different templates and read their descriptions to understand!**
 
-[Clean Arquitecture](https://github.com/dragonbytes02/scaff/edit/main/README.md)
+**Funtional**
+[Clean Arquitecture](https://github.com/dragonbytes02/js-clean-func-template.git)
+[Hexagonal Arquitecture](https://github.com/dragonbytes02/js-hexagonal-func-template.git)
+[Modular Clean](https://github.com/dragonbytes02/js-modularclean-func-template.git)
+[Model Controller Services](https://github.com/dragonbytes02/js-mcs-func-template.git)
+
+**POO**
+[Clean Arquitecture](https://github.com/dragonbytes02/js-clean-poo-template.git)
+[Hexagonal Arquitecture](https://github.com/dragonbytes02/js-hexagonal-poo-template.git)
+[Modular Clean](https://github.com/dragonbytes02/js-modularclean-poo-template.git)
+[Model Controller Services](https://github.com/dragonbytes02/js-mcs-poo-template.git)
+
+
+# Go Templates
+
+>These are not literal implementations of clean architectures, but rather simplifications. Therefore, many elements have been intentionally sacrificed.
+
+**Explore the different templates and read their descriptions to understand!**
+
+[Hexagonal Arquitecture](https://github.com/dragonbytes02/go-hexagonal-template.git)
+[Modular Clean](https://github.com/dragonbytes02/go-modularclean-template.git)
+[Model Controller Services](https://github.com/dragonbytes02/go-mcs-template.git)
