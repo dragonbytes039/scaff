@@ -1,6 +1,6 @@
 package msg
 
-import "dragonbytes02/scaff/internal/scripts"
+import "dragonbytes039/scaff/internal/scripts"
 
 type ChangeToLanguageMsg struct{}
 

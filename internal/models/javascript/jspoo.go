@@ -1,9 +1,9 @@
 package javascript
 
 import (
-	"dragonbytes02/scaff/internal/components/menu"
-	"dragonbytes02/scaff/internal/msg"
-	"dragonbytes02/scaff/internal/scripts"
+	"dragonbytes039/scaff/internal/components/menu"
+	"dragonbytes039/scaff/internal/msg"
+	"dragonbytes039/scaff/internal/scripts"
 )
 
 var jsPooOptions = []menu.OptionsInfo{

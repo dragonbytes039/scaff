@@ -1,8 +1,8 @@
 package app
 
 import (
-	"dragonbytes02/scaff/internal/msg"
-	"dragonbytes02/scaff/internal/scripts"
+	"dragonbytes039/scaff/internal/msg"
+	"dragonbytes039/scaff/internal/scripts"
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"

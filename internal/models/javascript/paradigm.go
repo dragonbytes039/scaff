@@ -1,8 +1,8 @@
 package javascript
 
 import (
-	"dragonbytes02/scaff/internal/components/menu"
-	"dragonbytes02/scaff/internal/msg"
+	"dragonbytes039/scaff/internal/components/menu"
+	"dragonbytes039/scaff/internal/msg"
 )
 
 var LanguagesOptions = []menu.OptionsInfo{

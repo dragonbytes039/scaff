@@ -4,7 +4,7 @@ Copyright © 2025 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
-	"dragonbytes02/scaff/internal/app"
+	"dragonbytes039/scaff/internal/app"
 	"fmt"
 	"os"
 
