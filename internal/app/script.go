@@ -1,9 +1,9 @@
 package app
 
 import (
+	"dragonbytes039/scaff/fst"
 	"dragonbytes039/scaff/internal/msg"
 	"dragonbytes039/scaff/internal/scripts"
-	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
 )
@@ -12,13 +12,9 @@ func (m *AppModel) runScript(selection scripts.ScriptApp, name_project string) t
 
 	return func() tea.Msg {
 
-		time.Sleep(3 * time.Second)
+		template := scripts.TemplateName[selection]
 
-		url := scripts.ScriptsDetailsUrls[selection]
-
-		script := scripts.InitialScript(name_project, url)
-
-		err := script.Execute()
+		err := fst.SpreadTemplate(template, name_project)
 
 		if err != nil {
 			return msg.ScriptErrorMsg{Err: string("output") + ": " + err.Error()}
