@@ -38,6 +38,10 @@ func SpreadTemplate(template string, projectName string) error {
 				return fmt.Errorf("error leyendo archivo embed %s: %w", path, err)
 			}
 
+			if path == "go.mod.txt" {
+				targetPath = filepath.Join("./"+projectName, "go.mod")
+			}
+
 			if err := os.WriteFile(targetPath, datos, 0644); err != nil {
 				return fmt.Errorf("error escribiendo archivo en disco %s: %w", targetPath, err)
 			}
