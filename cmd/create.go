@@ -12,15 +12,14 @@ import (
 	"github.com/spf13/cobra"
 )
 
+var projectName string
+
 // createCmd represents the create command
 var createCmd = &cobra.Command{
 	Use:   "create",
 	Short: "create a project",
 	Long:  `Create a project by passing the name as a parameter; if you don't pass a positional parameter as the name, it will fail!`,
-	Args:  cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
-
-		projectName := args[0]
 
 		p := tea.NewProgram(app.InitialApp(projectName))
 		if _, err := p.Run(); err != nil {
@@ -42,4 +41,5 @@ func init() {
 	// Cobra supports local flags which will only run when this command
 	// is called directly, e.g.:
 	// createCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+	createCmd.Flags().StringVarP(&projectName, "name", "n", "project", "Name for the new project")
 }

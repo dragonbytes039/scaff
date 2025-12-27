@@ -35,7 +35,7 @@ clean:
 
 .PHONY: run-windows
 run-windows:
-	./dev/scaff.exe create project
+	./dev/scaff.exe create
 
 .PHONY: dev-w
 dev-w: build-w run-windows clean

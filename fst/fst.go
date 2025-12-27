@@ -15,6 +15,14 @@ func SpreadTemplate(template string, projectName string) error {
 
 	contentTemplate, err := fs.Sub(AllTemplates, "templates/"+template)
 
+	i := 0
+	projectNameCopy := projectName
+	for DirExist(projectNameCopy) {
+		projectNameCopy = fmt.Sprintf("%s%d", projectName, i)
+		i++
+	}
+	projectName = projectNameCopy
+
 	if err != nil {
 		return fmt.Errorf("no se encontró el template")
 	}
