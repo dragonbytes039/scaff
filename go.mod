@@ -1,4 +1,4 @@
-module dragonbytes039/scaff
+module github.com/dragonbytes039/scaff
 
 go 1.25.1
 
